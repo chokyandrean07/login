@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Blaz Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1>WELCOME TO<br><span>BLAZ STORE</span></h1>
+    <img src="cart-icon.png" alt="Cart Icon" class="logo" />
+
+    <form id="loginForm">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="*********" required />
+
+      <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#">Forgot password</a>
+      </div>
+
+      <p id="errorMsg" class="error"></p>
+
+      <button type="submit" class="btn red">Sign in</button>
+      <button type="button" class="btn google">
+        <img src="Screenshot from 2025-05-07 09-49-05.png" /> Sign in with Google
+      </button>
+    </form>
+
+    <p class="signup">Don't have an account? <a href="#">Sign up fo free!</a></p>
+  </div>
+
+  <script src="bung.js"></script>
+</body>
+</html>
