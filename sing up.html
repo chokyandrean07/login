@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register Page</title>
+  <link rel="stylesheet" href="sing up.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="top-bg"></div>
+
+    <form class="form" onsubmit="return validateForm()">
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="otherNames">Other names</label>
+        <input type="text" id="otherNames">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="terms" required>
+        <label for="terms">Agree with <a href="#">terms & conditions</a></label>
+      </div>
+
+      <button type="submit" class="btn">Sign up</button>
+
+      <p class="member-text">I’m already a member</p>
+    </form>
+
+    <div class="bottom-bg"></div>
+  </div>
+
+  <script src="bb.js"></script>
+</body>
+</html>
